@@ -17,6 +17,7 @@ while (j <= 5)
     printf("Cima, Direita: %d casas\n", j);
     j++;
 }
+printf("\n");
 
     // Implementação de Movimentação da Torre
     // Sugestão: Utilize uma estrutura de repetição para simular a movimentação da Torre para a direita.
@@ -37,9 +38,21 @@ do
 } while (k <= 8);
 
 
+
     // Nível Aventureiro - Movimentação do Cavalo
     // Sugestão: Utilize loops aninhados para simular a movimentação do Cavalo em L.
     // Um loop pode representar a movimentação horizontal e outro vertical.
+    printf("\nMovimento do Cavalo:\n");
+    int movimentoCavalo = 1;
+
+    while (movimentoCavalo--)
+    {
+        for(int x = 0; x < 2; x++){
+            printf("Cima\n");
+        } 
+        printf("Direita\n");
+    }
+
 
     // Nível Mestre - Funções Recursivas e Loops Aninhados
     // Sugestão: Substitua as movimentações das peças por funções recursivas.
